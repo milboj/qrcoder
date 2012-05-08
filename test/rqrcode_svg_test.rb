@@ -1,5 +1,5 @@
 require "test/unit"
-require_relative "../lib/rqrcoder.rb"
+require_relative "../lib/qrcoder.rb"
 
 class QRCoder::QRCodeTest <Test::Unit::TestCase
   include QRCoder

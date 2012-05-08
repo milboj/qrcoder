@@ -1,5 +1,5 @@
 source "http://rubygems.org"
-
+gemspec
 gem "rqrcode"
 gem "mini_magick"
 
