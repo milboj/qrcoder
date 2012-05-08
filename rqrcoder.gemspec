@@ -3,13 +3,13 @@
 Gem::Specification.new do |s|
   s.name        = "qrcoder"
   s.summary     = "Creates QR code files "
-  s.description = "Render QR codes in png and svg format. This is fork of sam vincent rqrcode-rails3"
+  s.description = "Creates QR code files in png, bmp, png, jpg, tif and svg file format. This is fork of sam vincent rqrcode-rails3"
   
-  s.files       = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.md"]
+  s.files       = Dir["{lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.md"]
   
   s.author      = "Bojan Milosavljevic"
   s.email       = "milboj@gmail.com"
-  s.homepage    = "http://github.com/samvincent/rqrcode-rails3"
+  s.homepage    = "http://github.com/milboj/rqrcoder"
   s.version     = "0.1"
   
   s.add_dependency 'rqrcode', '>= 0.4.2'
