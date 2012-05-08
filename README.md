@@ -34,28 +34,28 @@ Allowed formats are
 
 Examples 
 
-  QRCode.image("some text", "/home/user/", :format => [:png, :svg], :filename => "simple_test" 
-  QRCode.image("some text", "/home/user/", :format => :png, :filename => "simple_test" , :unit => 12
+    QRCode.image("some text", "/home/user/", :format => [:png, :svg], :filename => "simple_test" 
+    QRCode.image("some text", "/home/user/", :format => :png, :filename => "simple_test" , :unit => 12
 
 ### SVG output
   
 Return svg output 
 
-  QRCode.svg(text, output, options)
+    QRCode.svg(text, output, options)
 
 Example
 
-  QRCode.svg("some text", "/home/user", :filename => "simple_test", :unit => 12) 
+    QRCode.svg("some text", "/home/user", :filename => "simple_test", :unit => 12) 
 
 ### Other methods
 
 You can use other methods
   
-  QRCode.bmp(text, output, options)
-  QRCode.png(text, output, options)
-  QRCode.jpg(text, output, options)
-  QRCode.tif(text, output, options)
-  QRCode.gif(text, output, options)
+    QRCode.bmp(text, output, options)
+    QRCode.png(text, output, options)
+    QRCode.jpg(text, output, options)
+    QRCode.tif(text, output, options)
+    QRCode.gif(text, output, options)
   
 #### Options:
 
