@@ -1,6 +1,6 @@
 require 'rqrcode'
-require 'rqrcoder/size_calculator.rb'
-require 'rqrcoder/renderers/svg.rb'
+require 'qrcoder/size_calculator.rb'
+require 'qrcoder/renderers/svg.rb'
 require 'mini_magick'
 
 module QRCoder

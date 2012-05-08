@@ -9,11 +9,11 @@ This gem supports generating QR images in SVG, BMP, TIF, JPG, GIF and PNG format
 
 Add the following to your +Gemfile+.
 
-    gem 'rqrcoder'
+    gem 'qrcoder'
 
 or 
 
-    gem install rqrcoder
+    gem install qrcoder
 
 ## How to use
 
