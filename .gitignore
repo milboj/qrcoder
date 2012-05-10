@@ -3,3 +3,4 @@ log/*.log
 pkg/
 Gemfile.lock
 *.gem
+.hgignore

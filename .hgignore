@@ -1,0 +1,6 @@
+
+.log
+pkg/
+Gemfile.lock
+.gem
+
