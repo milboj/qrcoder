@@ -30,7 +30,7 @@ Allowed formats are
   * gif 
   * tif
 
-  QRCode.image(text, output, options)
+    QRCode.image(text, output, options)
 
 Examples 
 
